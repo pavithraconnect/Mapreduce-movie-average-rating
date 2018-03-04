@@ -16,3 +16,11 @@ Requirements:
 the key and the rating field as the value.
 2. The reducer code, will compute the average rating (as a double datatype)
 for each movieId and store it in the output directory on HDFS.
+
+Command to run:
+-hadoop jar WordCount.jar WordCount.WordCount.[filename] [source file path] [destination directory]
+ 
+Output:
+-Available in [destination directory]/part-r-00000
+-Contains the movieId and its average rating
+
